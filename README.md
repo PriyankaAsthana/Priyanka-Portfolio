@@ -15,7 +15,7 @@
 ---
 
 ## 🌐 Live Preview
-*🚀 [Click here to explore the site](https://your-portfolio-link.com)*  
+*🚀 [Click here to explore the site](https://priyanka-portfolio-tau.vercel.app/)*  
 (Or download and run it locally below!)
 
 ---
