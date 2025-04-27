@@ -42,7 +42,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div id="contact">
       <p className='text-cyan'>{success}</p>
       <form action="" className='flex flex-col gap-4 text-white' ref={form} onSubmit={sendEmail}>
         <input 
