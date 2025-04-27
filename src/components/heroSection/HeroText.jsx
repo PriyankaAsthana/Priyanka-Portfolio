@@ -27,14 +27,6 @@ const HeroText = () => {
         Fueled by Java, structured with DSA,
         <br /> and brought to life on the web.
       </motion.p>
-      <a
-        href="/images/Priyanka_Asthana_Resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className='border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-4 hover:bg-orange transition-all duration-500 cursor-pointer text-white hover:text-cyan md:self-start sm:self-center'
-      >
-        Resume
-      </a>
     </div>
   );
 };
