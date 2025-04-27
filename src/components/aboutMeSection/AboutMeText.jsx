@@ -15,7 +15,6 @@ const AboutMeText = () => {
         If you’re looking for someone who codes with precision, designs with intention,<br />
         and delivers with perfection —you just found her.
       </p>
-      <button className='border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan'>Contact Me</button>
     </div>
   );
 };
