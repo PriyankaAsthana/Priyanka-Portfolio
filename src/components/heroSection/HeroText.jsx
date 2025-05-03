@@ -48,7 +48,7 @@ const HeroText = () => {
           href="/images/Priyanka_Asthana_RESUME.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block backdrop-blur-sm bg-white/10 text-white px-6 py-3 rounded-xl font-semibold border-2 border-orange hover:text-cyan transform transition-all duration-300 hover:scale-105"
+          className="inline-block backdrop-blur-sm bg-white/10 text-white px-6 py-3 rounded-full font-semibold border-2 border-orange hover:text-cyan transform transition-all duration-300 hover:scale-105"
         >
           Resume
         </a>
