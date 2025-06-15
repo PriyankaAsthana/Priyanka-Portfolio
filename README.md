@@ -36,7 +36,7 @@
 | Category     | Tools Used                                    |
 |--------------|-----------------------------------------------|
 | Frontend     | React, Tailwind CSS, Framer Motion            |
-| Backend (for forms/expansion) | PHP / Node (optional future integration) |
+| Backend (for forms/expansion) |  Node (optional future integration) |
 | Design System | Custom Tailwind theme                        |
 | Deployment   | Vite + GitHub Pages / Netlify / Vercel        |
 
