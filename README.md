@@ -3,7 +3,7 @@
 <p align="center">
   <i>A full-stack experience crafted with precision, personality, and pixels.</i><br/>
   Built with ⚛ React, styled by 💨 Tailwind CSS, and powered by passion.
-</p>
+</p> 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=white&color=orange"/>
