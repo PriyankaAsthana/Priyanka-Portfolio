@@ -42,7 +42,7 @@ const experiences =[
     responsibilities: [
       'Worked with Oracle ERP solutions.',
       'Implemented MERN Skills for development',
-      'Worked for internal tools and UI enhancements',
+      'Worked for internal tools and UI enhancements under skilled guidance and environment',
     ]
   }
 ];
@@ -70,4 +70,5 @@ const AllExperience = () => {
 };
 
 export default AllExperience
+
 
