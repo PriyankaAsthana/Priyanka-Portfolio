@@ -6,16 +6,6 @@ import { fadeIn } from '../../FramerMotion/variance';
 
 const experiences =[
   {
-    job: 'Front-End Developer',
-    company: 'MotionCut',
-    date: 'Apr 2024 - May 2024',
-    responsibilities: [
-      'Designed and optimized front-end components for e-commerce apps.',
-      'Focused on security-oriented UI features to enhance user safety.',
-      'Improved responsiveness and UI accessibility across devices.',      
-    ]
-  },
-  {
     job: 'Web Developer',
     company: 'Bharat Intern',
     date: 'May 2024 - Jun 2024',
@@ -26,24 +16,33 @@ const experiences =[
     ]
   },
   {
-    job: 'Transcriptor & Quality Analyst',
-    company: 'Solvitude',
-    date: 'Dec 2024 - Jan 2025',
+    job: 'QA Analyst',
+    company: 'JoshTalks-Solvitude',
+    date: 'Dec 2024 - Feb 2025',
     responsibilities: [
-      'Transcribed cybersecurity datasets for ML applications.',
-      'Ensured accuracy and structure of large-scale datasets.',
-      'Worked closely with research teams for clean input data.',
+      ' Developed and executed manual and automated test cases.',
+      'Implemented for web and mobile applications.',
+      'Conducted regression and performance testing',
     ]
   },
   {
     job: 'AI Intern',
-    company: 'AICTE Edunet',
-    date: 'Feb 2025 - Mar 2025',
+    company: 'Edunet | IBM',
+    date: 'Feb 2024 - Mar 2025',
     responsibilities: [
       'Researched AI-based web security solutions.',
-      'Built basic ML models for anomaly detection.',
       'Worked with datasets simulating network traffic.',
-      'Presented findings on AI use in threat mitigation and security.'
+      'Presented findings on AI use in threat mitigation and security.',
+    ]
+  },
+  {
+    job: 'IT Intern',
+    company: 'Hindalco Industries',
+    date: 'Jul 2025 - Aug 2025',
+    responsibilities: [
+      'Worked with Oracle ERP solutions.',
+      'Implemented MERN Skills for development',
+      'Worked for internal tools and UI enhancements',
     ]
   }
 ];
@@ -71,3 +70,4 @@ const AllExperience = () => {
 };
 
 export default AllExperience
+
