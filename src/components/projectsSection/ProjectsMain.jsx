@@ -6,31 +6,31 @@ import { fadeIn } from '../../FramerMotion/variance';
 
 const projects = [
   {
+  name: 'Mojito Cocktails',
+  year: 'Jul 2025',
+  align:'left',
+  image:'/images/website-img-4.jpg',
+  link:'https://mojito-cocktails-cyan.vercel.app/',
+ },
+  {
   name:'RAKT: Blood Bank Management System',
-  year:'Mar 2024',
+  year:'Jul 2024',
   align:'right',
   image:'/images/website-img-1.jpg',
   link: '#',
  },
  {
-  name: 'AZALEA: Ecom site for Flowers',
-  year: 'August 2024',
+  name: 'Diagnose AI',
+  year: 'Nov 2024',
   align:'left',
   image:'/images/website-img-2.webp',
   link:'#',
  },
  {
-  name: 'SafeX: Secure online chat',
-  year: 'November 2024',
+  name: 'ChatterBox: Secure online chat',
+  year: 'Jan 2024',
   align:'right',
   image:'/images/website-img-3.jpg',
-  link:'#',
- },
- {
-  name: 'Estate: Real Estate Buddy',
-  year: 'January 2025',
-  align:'left',
-  image:'/images/website-img-4.jpg',
   link:'#',
  },
 ]
@@ -55,3 +55,4 @@ const ProjectsMain = () => {
 };
 
 export default ProjectsMain
+
