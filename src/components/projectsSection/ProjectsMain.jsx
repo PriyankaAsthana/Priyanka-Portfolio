@@ -10,7 +10,7 @@ const projects = [
   year: 'Jul 2025',
   align:'left',
   image:'/images/website-img-4.jpg',
-  link:'https://mojito-cocktails-cyan.vercel.app/',
+  link: https://mojito-cocktails-cyan.vercel.app/
  },
   {
   name:'RAKT: Blood Bank Management System',
@@ -55,4 +55,5 @@ const ProjectsMain = () => {
 };
 
 export default ProjectsMain
+
 
