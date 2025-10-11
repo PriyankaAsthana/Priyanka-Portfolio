@@ -47,7 +47,7 @@ const ProjectsMain = () => {
       </motion.div>
       <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
         {projects.map((item,index)=>{
-          return <SingleProject key={index} name={item.name} year={item.year} align={item.align} image={item.image} />
+          return <SingleProject key={index} name={item.name} year={item.year} align={item.align} image={item.image} link={item.link} />
         })}
       </div>
     </div>
@@ -55,6 +55,7 @@ const ProjectsMain = () => {
 };
 
 export default ProjectsMain
+
 
 
 
