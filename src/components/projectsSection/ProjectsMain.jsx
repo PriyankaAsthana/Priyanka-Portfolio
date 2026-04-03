@@ -27,11 +27,11 @@ const projects = [
     link:'https://kashivani.onrender.com',
   },
   {
-    name: 'ChatterBox: Secure Online Chat',
-    year: 'Jan 2024',
+    name: 'F1 Raceplay: Live Telemetry',
+    year: 'Feb 2026',
     align:'right',
     image:'/images/website-img-4.jpg',
-    link: '#',
+    link: 'https://github.com/PriyankaAsthana/F1_RACE_REPLAY',
   },
 ]
 
