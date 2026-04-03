@@ -12,7 +12,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl uppercase text-cyan"
       >
-        Java & Web Developer
+        NLP Researcher · AI Systems · Healthcare AI
       </motion.h2>
 
       <motion.h1
@@ -32,8 +32,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4 text-white"
       >
-        Fueled by Java, structured with DSA,
-        <br /> and brought to life on the web.
+        Building constrained AI systems that are not just accurate —
+        <br /> but trustworthy enough to deploy in the real world.
       </motion.p>
 
       {/* Resume Button */}
