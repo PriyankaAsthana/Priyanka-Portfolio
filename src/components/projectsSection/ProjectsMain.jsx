@@ -17,7 +17,7 @@ const projects = [
     year:'Dec 2024 – Nov 2025 | Under Review at Springer Nature',
     align:'right',
     image:'/images/website-img-1.jpg',
-    link: '#',
+    link: 'https://github.com/PriyankaAsthana/RAKT_Blood_Bank_Management',
   },
   {
     name: 'Kashivani: Multi-Agent Cultural NLP System',
