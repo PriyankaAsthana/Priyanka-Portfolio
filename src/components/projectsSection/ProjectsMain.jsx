@@ -10,7 +10,7 @@ const projects = [
     year: 'Apr 2025 – Nov 2025 | Indian Patent Filed (202611012869)',
     align:'left',
     image:'/images/website-img-2.webp',
-    link:'#',
+    link:'https://diagnoseai-ai-medical-system.onrender.com/',
   },
   {
     name:'RAKT: Tokenized GeoAI Blood Allocation Framework',
