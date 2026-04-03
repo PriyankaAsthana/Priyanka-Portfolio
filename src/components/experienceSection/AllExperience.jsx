@@ -39,8 +39,8 @@ const experiences = [
     date: 'Feb 2025 – Mar 2025',
     responsibilities: [
       'Worked on applied AI/ML projects including classification and clustering.',
-      'Implemented supervised and unsupervised learning algorithms in Python.',
-      'Evaluated models using accuracy and confusion matrices.',
+      'Implemented supervised and unsupervised learning algos in Python.',
+      'Evaluated models using accuracy & confusion matrices.',
     ]
   },
 ];
