@@ -5,15 +5,14 @@ const AboutMeText = () => {
     <div className='flex flex-col md:items-start sm:items-center md:text-left sm:text-center'>
       <h2 className='text-6xl text-cyan mb-10'>About Me</h2>
       <p className='text-white'>
-        I’m Priyanka Asthana—the kind of developer who actually enjoys debugging at 2AM and thrives<br />
-        turning caffeine and chaos into clean, scalable code.<br />
-        Fluent in Java, built with DSA, and styled in Tailwind, I craft digital experiences that are fast, responsive,<br />
-        and unapologetically bold.<br />
-        I don’t just build websites—I architect vibes. From backend logic to pixel-perfect frontend finesse,<br />
-        I bridge the gap between logic and aesthetics.<br />
-        Currently deep in React & DSA, I’m leveling up every day, and loving every minute of the madness.<br />
-        If you’re looking for someone who codes with precision, designs with intention,<br />
-        and delivers with perfection —you just found her.
+        I'm Priyanka Asthana — a final-year CSE undergrad at AITM Varanasi, ranked first in my department for three consecutive years.<br /><br />
+        My research sits at the intersection of NLP, constrained reasoning, and real-world AI deployment in healthcare.<br />
+        I don't just build models — I ask why they break, and what it would take to make them trustworthy.<br /><br />
+        I've filed an Indian patent for an NLP-based medical voice assistant, co-authored a paper under review at Springer Nature,<br />
+        and built systems tested on 500+ real patient scenarios.<br /><br />
+        Everything I've built — RAKT, DiagnoseAI, Kashivani — was conceived independently, with no lab funding and no blueprint.<br />
+        That's not a complaint. That's just how I work.<br /><br />
+        Currently: NLP Researcher at IIT BHU. Next: pushing the boundaries of what constrained language systems can do.
       </p>
     </div>
   );
