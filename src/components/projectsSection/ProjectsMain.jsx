@@ -24,7 +24,7 @@ const projects = [
     year: 'Sep 2025 – Oct 2025 | RAG Pipeline · 40% Hallucination Reduction',
     align:'left',
     image:'/images/website-img-3.jpg',
-    link:'#',
+    link:'https://kashivani.onrender.com',
   },
   {
     name: 'ChatterBox: Secure Online Chat',
