@@ -4,48 +4,49 @@ import { FaArrowRight } from "react-icons/fa";
 import {motion} from 'framer-motion';
 import { fadeIn } from '../../FramerMotion/variance';
 
-const experiences =[
+const experiences = [
   {
-    job: 'Web Developer',
-    company: 'Bharat Intern',
-    date: 'May 2024 - Jun 2024',
+    job: 'NLP Researcher',
+    company: 'IIT BHU',
+    date: 'Feb 2026 – Apr 2026',
     responsibilities: [
-      'Built a secure login system using PHP and MySQL.',
-      'Implemented encrypted credential handling for user safety.',
-      'Developed role-based access control for internal tools.',
+      'Engineered NLP-driven test automation processing 1,000+ text inputs for semantic accuracy.',
+      'Detected and resolved 20+ NLP parsing failures in real-time systems.',
+      'Boosted pipeline reliability by 25% through targeted fixes.',
     ]
   },
   {
-    job: 'QA Analyst',
-    company: 'JoshTalks-Solvitude',
-    date: 'Dec 2024 - Feb 2025',
+    job: 'AI Research Intern',
+    company: 'Bharat Space Education Research Centre',
+    date: 'Dec 2025 – Jan 2026',
     responsibilities: [
-      ' Developed and executed manual and automated test cases.',
-      'Implemented for web and mobile applications.',
-      'Conducted regression and performance testing',
-    ]
-  },
-  {
-    job: 'AI Intern',
-    company: 'Edunet | IBM',
-    date: 'Feb 2024 - Mar 2025',
-    responsibilities: [
-      'Researched AI-based web security solutions.',
-      'Worked with datasets simulating network traffic.',
-      'Presented findings on AI use in threat mitigation and security.',
+      'Developed AI-driven control algorithms for UAS across 5 experimental modules.',
+      'Optimized trajectory prediction accuracy by 15% using ML.',
+      'Reduced subsystem latency by 20% via real-time sensor data fusion.',
     ]
   },
   {
     job: 'IT Intern',
-    company: 'Hindalco Industries',
-    date: 'Jul 2025 - Aug 2025',
+    company: 'Hindalco Industries (Aditya Birla Group)',
+    date: 'Jul 2025 – Aug 2025',
     responsibilities: [
-      'Worked with Oracle ERP solutions.',
-      'Implemented MERN Skills for development',
-      'Worked for internal tools and UI enhancements under skilled guidance and environment',
+      'Built analytical dashboards and automated ERP data pipelines.',
+      'Accelerated API and query performance by 10% for industrial operations.',
+      'Reduced manual processing time by 25% through data flow optimization.',
     ]
-  }
+  },
+  {
+    job: 'AI Intern',
+    company: 'Edunet Foundation',
+    date: 'Feb 2025 – Mar 2025',
+    responsibilities: [
+      'Worked on applied AI/ML projects including classification and clustering.',
+      'Implemented supervised and unsupervised learning algorithms in Python.',
+      'Evaluated models using accuracy, precision, recall, and confusion matrices.',
+    ]
+  },
 ];
+
 const AllExperience = () => {
   return (
     <div className='flex md:flex-row sm:flex-col items-center justify-between'>
@@ -53,7 +54,7 @@ const AllExperience = () => {
         return (
           <>
           <SingleExperience key={index} experience={experience} />
-          {index <3 ? (
+          {index < 3 ? (
             <motion.div
              variants={fadeIn('right',0.2)}
              initial='hidden'
@@ -70,5 +71,3 @@ const AllExperience = () => {
 };
 
 export default AllExperience
-
-
