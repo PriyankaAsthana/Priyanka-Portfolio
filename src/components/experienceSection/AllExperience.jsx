@@ -40,7 +40,7 @@ const experiences = [
     responsibilities: [
       'Worked on applied AI/ML projects including classification and clustering.',
       'Implemented supervised and unsupervised learning algorithms in Python.',
-      'Evaluated models using accuracy, precision and confusion matrices.',
+      'Evaluated models using accuracy and confusion matrices.',
     ]
   },
 ];
