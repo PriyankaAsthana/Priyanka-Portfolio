@@ -6,33 +6,33 @@ import { fadeIn } from '../../FramerMotion/variance';
 
 const projects = [
   {
-  name: 'Mojito Cocktails',
-  year: 'Jul 2025',
-  align:'left',
-  image:'/images/website-img-4.jpg',
-  link: 'https://mojito-cocktails-cyan.vercel.app/',
- },
+    name: 'DiagnoseAI: Medical Symptom Assessment',
+    year: 'Apr 2025 – Nov 2025 | Indian Patent Filed (202611012869)',
+    align:'left',
+    image:'/images/website-img-2.webp',
+    link:'#',
+  },
   {
-  name:'RAKT: Blood Bank Management System',
-  year:'Jul 2024',
-  align:'right',
-  image:'/images/website-img-1.jpg',
-  link: '#',
- },
- {
-  name: 'Diagnose AI',
-  year: 'Nov 2024',
-  align:'left',
-  image:'/images/website-img-2.webp',
-  link:'#',
- },
- {
-  name: 'ChatterBox: Secure online chat',
-  year: 'Jan 2024',
-  align:'right',
-  image:'/images/website-img-3.jpg',
-  link:'#',
- },
+    name:'RAKT: Tokenized GeoAI Blood Allocation Framework',
+    year:'Dec 2024 – Nov 2025 | Under Review at Springer Nature',
+    align:'right',
+    image:'/images/website-img-1.jpg',
+    link: '#',
+  },
+  {
+    name: 'Kashivani: Multi-Agent Cultural NLP System',
+    year: 'Sep 2025 – Oct 2025 | RAG Pipeline · 40% Hallucination Reduction',
+    align:'left',
+    image:'/images/website-img-3.jpg',
+    link:'#',
+  },
+  {
+    name: 'ChatterBox: Secure Online Chat',
+    year: 'Jan 2024',
+    align:'right',
+    image:'/images/website-img-4.jpg',
+    link: '#',
+  },
 ]
 
 const ProjectsMain = () => {
@@ -55,7 +55,3 @@ const ProjectsMain = () => {
 };
 
 export default ProjectsMain
-
-
-
-
