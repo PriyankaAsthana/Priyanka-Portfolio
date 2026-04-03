@@ -1,62 +1,63 @@
 import React from 'react'
+import { SiPython } from "react-icons/si";
+import { SiPytorch } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { SiHuggingface } from "react-icons/si";
+import { FaDatabase } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 import { FaJava } from "react-icons/fa";
 import { SiThealgorithms } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { IoLogoReact } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaDatabase } from "react-icons/fa";
-import { FaPhp } from "react-icons/fa";
 import SingleSkills from './SingleSkills';
 import {motion} from 'framer-motion';
 import { fadeIn } from '../../FramerMotion/variance';
 
 const skills = [
-{
+  {
+    skill: 'Python',
+    icon: SiPython,
+  },
+  {
+    skill: 'PyTorch',
+    icon: SiPytorch,
+  },
+  {
+    skill: 'TensorFlow',
+    icon: SiTensorflow,
+  },
+  {
+    skill: 'Scikit-learn',
+    icon: SiScikitlearn,
+  },
+  {
+    skill: 'NLP / LLMs',
+    icon: SiHuggingface,
+  },
+  {
     skill: 'Java',
-    icon: FaJava, 
-},
-{
+    icon: FaJava,
+  },
+  {
     skill: 'DSA',
     icon: SiThealgorithms,
-},
-{
-    skill: 'HTML',
-    icon: FaHtml5,
-},
-{
-    skill:'CSS',
-    icon: FaCss3Alt,
-},
-{
-    skill: 'JS',
+  },
+  {
+    skill: 'JavaScript',
     icon: IoLogoJavascript,
-},
-{
-    skill: 'REACT',
-    icon: IoLogoReact,
-},
-{
-    skill: 'TailWind',
-    icon: RiTailwindCssFill,
-},
-{
-    skill: 'DBMS',
+  },
+  {
+    skill: 'Databases',
     icon: FaDatabase,
-},
-{
-    skill: 'PHP',
-    icon: FaPhp ,
-}
+  },
 ]
+
 const AllSkills = () => {
   return (
     <div>
       <div className='flex items-center justify-center gap-2 max-w-[1200px] mx-auto'>
         {skills.map((item, index) =>{
             return(
-                <motion.div 
+                <motion.div
                 variants={fadeIn('up',`0.${index}`)}
                 initial='hidden'
                 whileInView='show'
