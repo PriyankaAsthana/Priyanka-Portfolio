@@ -11,8 +11,8 @@ const ExperienceTopLeft = () => {
         <ExperienceInfo number='6' text='Websites'/>
       </div>
       <p className='text-center text-white'>Crafting clean code and real-world<br/>
-        solutions at the intersection of Java,<br/>
-        full stack development, and emerging tech.<br/>
+        solutions at the intersection of Python,<br/>
+        NLP and emerging AI.<br/>
       </p>
       <ExperienceInfo number='DSA' text='Focused'/>
     </div>
