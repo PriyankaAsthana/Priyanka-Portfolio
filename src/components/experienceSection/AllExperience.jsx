@@ -8,7 +8,7 @@ const experiences = [
   {
     job: 'NLP Researcher',
     company: 'IIT BHU',
-    date: 'Feb 2026 – Apr 2026',
+    date: 'Feb 2026 – Jul 2026',
     responsibilities: [
       'Engineered NLP-driven test automation processing 1,000+ text inputs for semantic accuracy.',
       'Detected and resolved 20+ NLP parsing failures in real-time systems.',
@@ -25,18 +25,18 @@ const experiences = [
     ]
   },
   {
-    job: 'IT Intern',
+    job: 'Business Analyst Intern',
     company: 'Hindalco Industries (Aditya Birla Group)',
-    date: 'Jul 2025 – Aug 2025',
+    date: 'Jul 2025 – Sept 2025',
     responsibilities: [
-      'Accelerated API and query performance by 10% for industrial operations.',
+      'Built SQL queries against Oracle ERP systems and translated findings into Tableau dashboards for senior leadership', 
       'Reduced manual processing time by 25% through data flow optimization.',
     ]
   },
   {
     job: 'AI Intern',
     company: 'Edunet Foundation',
-    date: 'Feb 2025 – Mar 2025',
+    date: 'Feb 2025 – May 2025',
     responsibilities: [
       'Worked on applied AI/ML projects including classification and clustering.',
       'Implemented supervised and unsupervised learning algos in Python.',
